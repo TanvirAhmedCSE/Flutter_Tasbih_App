@@ -108,7 +108,8 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       count = 0;
       seconds = 0;
-      isRunning = true;
+      isRunning = false;
+      toggleValue = false;
     });
   }
 
